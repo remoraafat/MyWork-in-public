@@ -1,0 +1,75 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  width: 100%;
+}
+
+h3 {
+  color: rgb(58, 156, 242);
+  margin-bottom: 20px;
+}
+
+/* Style for label and radio buttons */
+.user-type {
+  display: flex;
+  /* Make label and radio buttons display inline */
+  justify-content: space-between;
+  /* Space them evenly */
+  margin-bottom: 10px;
+}
+
+label {
+  color: rgb(58, 156, 242);
+}
+
+input[type="radio"] {
+  margin-right: 10px;
+  /* Spacing between radio button and label */
+}
+
+/* Other styles remain the same */
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+input[type="button"],
+input[type="reset"] {
+  background-color: rgb(58, 156, 242);
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+input[type="button"]:hover,
+input[type="reset"]:hover {
+  background-color: #378ac4;
+}
+
+p {
+  margin-bottom: 15px;
+}

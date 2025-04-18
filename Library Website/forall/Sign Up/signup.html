@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Sign Up Page</title>
+  <link rel="stylesheet" href="signup.css">
+</head>
+
+<body>
+  <div>
+    <form action="" method="post">
+      <h3>Sign Up</h3>
+      <p>
+        <label for="username">Username:</label>
+        <input type="text" required placeholder="Username" name="username" id="username">
+      </p>
+      <p>
+        <label for="email">Email:</label>
+        <input type="email" required placeholder="Email" name="email" id="email">
+      </p>
+      <p>
+        <label for="password">Password:</label>
+        <input type="password" required placeholder="Password" name="password" id="password">
+      </p>
+      <p>
+        <label for="confirm_password">Confirm Password:</label>
+        <input type="password" required placeholder="Confirm Password" name="confirm_password" id="confirm_password">
+      </p>
+      <p>
+        <label>User Type:</label>
+        <input type="radio" name="user_type" id="admin" value="admin">
+        <label for="admin">Admin</label>
+        <input type="radio" name="user_type" id="user" value="user" checked>
+        <label for="user">User</label>
+      </p>
+      <a href="../login.html">Already have a account</a>
+      <p>
+        <input type="button" name="signup" value="Sign Up" onclick="to_login();">
+        <input type="reset" name="reset" value="Reset">
+
+      </p>
+    </form>
+  </div>
+  <script src="signup.js"></script>
+</body>
+
+</html>

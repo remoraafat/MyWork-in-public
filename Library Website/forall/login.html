@@ -1,0 +1,33 @@
+<html>
+
+<head>
+    <title>Login page</title>
+    <link rel="stylesheet" href="login/login.css">
+    <script href="login/login.js"></script>
+</head>
+
+<body>
+
+
+    <div class="login-container">
+        <form action="" method="post" class="login-form">
+            <h2 class="form-title">Login</h2>
+            <div class="form-group">
+                <input type="text" required placeholder="Username" name="username" id="username" autofocus
+                    class="form-input">
+            </div>
+            <div class="form-group">
+                <input type="password" required placeholder="Password" name="password" id="password" class="form-input">
+            </div>
+            <a href="Sign Up\signup.html" class="form-link">Sign up</a>
+            <div class="form-group">
+                <button type="button" name="login" class="form-submit" onclick="login_click();">Login</button>
+                <input type="reset" name="reset" value="Reset" class="form-reset">
+            </div>
+            <script src="login/login.js"></script>
+        </form>
+
+    </div>
+</body>
+
+</html>
