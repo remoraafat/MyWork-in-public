@@ -1,0 +1,89 @@
+
+  
+
+  .head {
+    text-align: center;
+   
+    color: rgb(58, 156, 242); 
+    text-transform: uppercase; 
+    letter-spacing: 2px; 
+}
+
+h1.head {
+   
+  font-weight: bold;
+  font-size: 36px; 
+  margin-bottom: 30px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 1.0); 
+}
+
+h2.head {
+
+    font-size: 24px; /* Font size for h2 */
+    margin-bottom: 20px; /* Add more space below h2 */
+    margin-top: 40px; /* Increase top margin for h2 */
+   
+   
+}
+
+
+
+
+.book-list{
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  
+  }
+  
+  .book-item {
+  margin-bottom: 20px;
+  text-align: center;
+  display: inline-block; 
+ width: 45%;
+  margin-right: 5px; 
+  border-radius: 2px; /* Rounded corners */
+ 
+
+  }
+  .book-item:hover {
+    transform: translateY(-5px); /* Move up on hover */
+}
+  
+  .book-link {
+      display: block;
+      text-decoration:none;
+      color: #2a1919;
+      margin-bottom: 10px;
+  }
+  
+  .book-img{
+  width: 250px; 
+  height: 300px;
+  display: block;
+  margin: auto;
+  border: 1px solid #ddd; 
+  padding: 10px; 
+  
+  border-radius: 10px; /* Rounded corners */
+  background-color: rgb(230, 236, 242); 
+   box-shadow: 10px 10px 5px rgb(193, 168, 168); 
+  transition: transform 0.3s ease; /* Smooth hover effect */
+  }
+
+  .button {
+    display: block;
+    width: 200px;
+    margin: 10px auto;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #3a9cf2;  
+    color: #fff; 
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+
+  

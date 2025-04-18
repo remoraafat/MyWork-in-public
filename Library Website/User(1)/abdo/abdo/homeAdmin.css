@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+    background-image: url(Background.jpg);
+    min-height: fit-content;
+    background-position:center;
+    background-size:cover;
+    color: white;
+    text-align: center;
+    background-repeat: no-repeat;
+    /* min-height: 250px; */
+    z-index: -1;
+    max-height: fit-content;
+    
+}
+
+.divt{
+    margin-top: 14%;
+}
+.divh{
+    font-family: sans-serif;
+    line-height: 350%;
+    
+}
+.hero{
+    font-size: 300%;
+    font-weight: bold;
+    margin: 0;
+}
+.subhero{
+    font-weight: bold;
+}
+
+#divin{
+    
+    
+    margin-top: 80px;
+}
+
+
+#sin{
+    font-size: large;
+}
+.f{
+    margin-top: 17.4%;
+}
