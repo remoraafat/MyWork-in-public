@@ -1,0 +1,30 @@
+<html>
+
+<head>
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="admin_dashboard/admin.css">
+    <script src="Navjavas.js" defer></script>
+    <link rel="stylesheet" href="Nav&FooterStyle.css" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="div1">
+            <h2>Admin Dashboard</h2>
+            <p><a href="Add_new_book.html" target="myFrame"><button class="but">Add New Book</button></a></p>
+            <p><a href="displaybooks.html" target="myFrame"><button class="but">View or Edit Books</button></a></p>
+            <p><a href="displaybooks.html" target="myFrame"><button type="button" class="but" onclick="ADD_books();">Add
+                        default
+                        boxes</button></p></a>
+            <p><a href="displaybooks.html" target="myFrame"><button type="button" class="but"
+                        onclick="clearbooks();">Clear All
+                        Books</button></p></a>
+
+        </div>
+        <iframe name="myFrame" id="myFrame" src="displaybooks.html" class="myFrame"></iframe>
+    </div>
+    <script src="admin_dashboard/AdminDash.js"></script>
+
+</body>
+
+</html>

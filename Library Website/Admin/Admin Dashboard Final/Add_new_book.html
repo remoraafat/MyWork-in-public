@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Add a new Book</title>
+    <link rel="stylesheet" href="admin_dashboard/edit&Add.css">
+</head>
+
+<body>
+    <form action="" method="post" class="bod">
+        <h1 class="form-title">New Book</h1>
+        <div class="image-upload-container">
+            <h3>Book Image</h3>
+            <label for="image-upload" class="image-upload-label" id="imageurl_newbook">
+                <img src="" alt="" id="old"><br>
+                <label for="image-upload" class="but">Drag & Drop or Click to Upload</label>
+                <input type="file" id="image-upload" accept="image/*" style="display: none;">
+            </label>
+            <script>
+                let old = document.getElementById("old");
+                let newimg = document.getElementById("image-upload");
+
+                newimg.onchange = function () {
+                    old.src = URL.createObjectURL(this.files[0]);
+                    let dimention = document.getElementById("old");
+                    dimention.setAttribute("width", 200);
+                    dimention.setAttribute("height", 200);
+                    localStorage.setItem("imageURL", JSON.stringify(old.src));
+                }
+            </script>
+        </div>
+        <label for="bookname_newbook"><b>Book Name :</b></label><input type="text" placeholder="Book name"
+            id="bookname_newbook" class="text-input"><br>
+        <label for="author_newbook"><b>Author :</b></label><input type="text" placeholder="Author name"
+            id="Author_newbook" class="text-input"><br>
+        <label for="Category_newbook"><b>Category :</b></label><input type="text" placeholder="Category"
+            id="Category_newbook" class="text-input"><br>
+        <label for="Publisher_newbook"><b>Publisher :</b></label><input type="text" placeholder="Publisher"
+            id="Publisher_newbook" class="text-input"><br>
+        <label for="PublicationDate_newbook"><b>Publication Date :</b></label><input type="text"
+            placeholder="Publication Date" id="PublicationDate_newbook" class="text-input"><br>
+        <label for="NumberofPages_newbook"><b>Number of Pages :</b></label><input type="text"
+            placeholder="Number of Pages" id="NumberofPages_newbook" class="text-input"><br>
+        <label for="Description_newbook"><b>Description </b></label><br><textarea name="description" cols="70" rows="20"
+            placeholder="Book description" id="Description_newbook"></textarea><br>
+        <a href="displaybooks.html"><button type="button" name="Save" class="but" onclick="Add_book();">Save
+                changes</button></a>
+        <input type="reset" name="reset" value="Reset" class="but">
+        <script src="admin_dashboard/Add.js"></script>
+    </form>
+</body>
+
+</html>
