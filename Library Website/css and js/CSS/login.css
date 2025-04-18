@@ -1,0 +1,82 @@
+/* Login Container */
+.login-container {
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 8px;
+    padding: 30px;
+    position: absolute;
+    margin: 40px;
+}
+
+
+.login-container {
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 8px;
+    padding: 30px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    max-width: 80%;
+}
+
+
+.login-form {
+    text-align: center;
+}
+
+.form-title {
+    color: white;
+    font-size: 32px;
+    background-color: #007bff;
+    padding: 15px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    margin-top: 0;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-input,
+.form-radio {
+    width: 100%;
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.form-radio-label {
+    margin-right: 10px;
+    color: #007bff;
+}
+
+.form-link {
+    text-decoration: none;
+    color: #007bff;
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.form-link:hover {
+    text-decoration: underline;
+}
+
+.form-submit,
+.form-reset {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.form-submit:hover,
+.form-reset:hover {
+    background-color: #0056b3;
+}
